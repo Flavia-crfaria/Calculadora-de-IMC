@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.CalculadoraIMCNI1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Cor principal e cor dos botões -->
+        <item name="colorPrimary">#006341</item>
+        <item name="colorPrimaryVariant">#00A859</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#4D4D4D</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorAccent">#006341</item>
+        <!-- Corrige a cor do botão -->
+        <item name="buttonStyle">@style/CustomButton</item>
+    </style>
+
+    <!-- Estilo personalizado para os botões -->
+    <style name="CustomButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">#006341</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/borda_verde">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:contentDescription="Logo da Calculadora IMC"
+            android:src="@drawable/logo_imc" />
+
+        <Button
+            android:id="@+id/buttonCalculadoraIMC"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginTop="20dp"
+            android:background="#006341"
+            android:padding="10dp"
+            android:text="Calculadora IMC"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
